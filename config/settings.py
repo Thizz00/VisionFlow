@@ -1,0 +1,30 @@
+class Config:
+    MODEL_ID = "apple/FastVLM-1.5B"
+    IMAGE_TOKEN_INDEX = -200
+    MAX_VIDEO_DURATION = 1000
+    MAX_CONTEXT_FRAMES = 150
+    MEMORY_THRESHOLD = 85.0
+    MIN_DISK_SPACE_MB = 100
+    
+    FRAME_SAMPLING = {
+        'SHORT_VIDEO_THRESHOLD': 5,
+        'MEDIUM_SHORT_THRESHOLD': 15,
+        'MEDIUM_THRESHOLD': 30,
+        'LONG_THRESHOLD': 60,
+        'VERY_LONG_THRESHOLD': 180,
+        'EXTREMELY_LONG_THRESHOLD': 600,
+        'EXTREME_THRESHOLD': 1800,
+        'ABSOLUTE_MAX_FRAMES': 200
+    }
+    
+    MODEL_PARAMS = {
+        'TEMPERATURE': 0.3,
+        'MAX_NEW_TOKENS_ANALYSIS': 400,
+        'MAX_NEW_TOKENS_CHAT': 300,
+        'DO_SAMPLE': True,
+        'USE_CACHE': True,
+        'REPETITION_PENALTY': 1.2,
+        'NO_REPEAT_NGRAM_SIZE': 3
+    }
+    
+    SIMILARITY_THRESHOLD = 0.8
