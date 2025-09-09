@@ -2,6 +2,8 @@
 
 Advanced video analysis framework powered by Apple's FastVLM for intelligent content understanding and conversational AI interactions.
 
+![streamlit](/docs/streamlit.gif)
+
 ## Overview
 
 VisionFlow provides comprehensive video analysis capabilities through intelligent frame sampling, multimodal AI processing, and context-aware chat functionality. The system processes both YouTube videos and local files, extracting detailed visual information and enabling natural language queries about video content.
